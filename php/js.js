@@ -29,7 +29,7 @@
         })
     });
     $('#logout').click(function () {
-        confirm('确定是要注销吗？');
+        confirm('确定是要注销吗1？');
         $.getJSON('php/logout.php',function (res) {
             if(res)toggle();
         })
