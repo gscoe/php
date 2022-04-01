@@ -1,3 +1,5 @@
 # php  
 add the php project code   
-update codes
+insert code
+update code
+delete code
