@@ -1,4 +1,4 @@
-<script src="js/jquery-2.1.3.js"></script>
+<script src="js/jquery-2.1.31.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script>
     function toggle(){
