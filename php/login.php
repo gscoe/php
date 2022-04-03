@@ -1,7 +1,7 @@
 <?php
 include_once ("connect.php");
 session_start();/*开启会话*/
-$user=$_GET['username'];/*获取登录表单提交过来的数据*/
+$user=$_GET['username1'];/*获取登录表单提交过来的数据*/
 $pwd=$_GET['pwd'];
 $yzm=$_GET['yzm'];
 if($yzm==$_SESSION['vCode']){/*当用户输入的验证码和图片验证码相同时*/
