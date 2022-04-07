@@ -11,7 +11,7 @@ if($yzm==$_SESSION['vCode']){/*当用户输入的验证码和图片验证码相�
     if ($row) {/*如果数据存在，用户登录成功*/
         $_SESSION['username'] = $row['username'];
         /*将用户名和昵称存在服务器，可以在多个页面使用*/
-        $_SESSION['nc'] = $row['nc'];
+        $_SESSION['nc'] = $row['n0c'];
         $flag=3;
     }else{/*用户名或密码错误*/
         $flag=2;
