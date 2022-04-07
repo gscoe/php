@@ -22,7 +22,7 @@
                 toggle();
                 $('#loginer').modal('hide');
             }else if(res==2){
-                $('#info').html('用户名或密码有误')
+                $('#info').html('用户名或密码有误0')
             }else {
                 $('#info').html('验证码有误')
             }
