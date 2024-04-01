@@ -16,7 +16,7 @@ if($yzm==$_SESSION['vCode']){/*当用户输入的验证码和图片验证码相�
     }else{/*用户名或密码错误*/
         $flag=2;
     }
-}else{/*验证码输入错误1*/
+}else{/*验证码输入错误11*/
     $flag=1;
 }
 echo $flag;
